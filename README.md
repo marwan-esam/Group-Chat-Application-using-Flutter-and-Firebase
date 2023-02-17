@@ -1,4 +1,4 @@
-# Group Chat Application usign Flutter and Firebase
+# Group Chat Application
 
 This is a Flutter and Firebase-based group chat application that allows users to login or sign up, create or search for groups, and communicate with other members of the group. The application has several features that make it easy for users to manage and participate in group conversations.
 
