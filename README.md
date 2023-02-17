@@ -1,6 +1,6 @@
-# chatapp_firebase
+# Group Chat Application usign Flutter and Firebase
 
-A new Flutter project.
+This is a Flutter and Firebase group chat application. it allows users to create and join groups, and send messages to other members of the group
 
 ## Getting Started
 
