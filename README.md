@@ -1,16 +1,37 @@
 # Group Chat Application usign Flutter and Firebase
 
-This is a Flutter and Firebase group chat application. it allows users to create and join groups, and send messages to other members of the group
+This is a Flutter and Firebase-based group chat application that allows users to login or sign up, create or search for groups, and communicate with other members of the group. The application has several features that make it easy for users to manage and participate in group conversations.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+-Login and Signup: Users can login with their email and password or create a new account to start using the application.
 
-A few resources to get you started if this is your first Flutter project:
+-Create or Search for Groups: Users can create new groups or search for existing ones.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Chatting: Once a user joins a group, they can send and receive messages. Each sender has their unique name color that differentiates them from other members.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-Group Info: Users can view group name, admin, and members from the group info page.
+
+-Profile Page: Users can view their name and email on their profile page.
+
+-Logout: Users can log out of the application by pressing the logout icon button.
+
+-Leave a Group: Users can leave a group by pressing the leave group icon button or toggling the join button in the search page.
+
+## Navigation
+
+The following are the navigation paths to access the different parts of the application:
+
+-Sign in and sign up pages: Users can access these pages when they launch the application.
+
+-Home Page: Users can access the home page by successfully logging in or signing up.
+
+-Group Info Page: Users can access the group info page by pressing the group name on the home pag.
+
+-Profile Page: Users can access their profile page by a drawer on the home page.
+
+-Logout: Users can log out by pressing the logout icon button accessed through the drawer.
+
+## Authentication
+
+-Firebase Authentication is used to verify that the user is logged in or signed up successfully. Once the user is signed in or up, they should be redirected to the home page even if they left or closed the application.
